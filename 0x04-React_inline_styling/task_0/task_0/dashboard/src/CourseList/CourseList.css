@@ -1,14 +1,21 @@
-.CourseList__container {
-    border: 1px solid #ccc;
-    margin: 2rem auto;
-    width: 80%;
+
+table {
+	display: table;
+	border: 1px solid;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
-  
-.CourseList__container th {
-    padding: .3rem 0;
-    border-bottom: 1px solid #ccc;
+
+tr th {
+	text-align: start;
+	border-bottom: 1px solid;
 }
-  
-.CourseList__container tr:nth-of-type(2) {
-    text-align: left;
+
+th[colSpan="2"] {
+	text-align: center;
+	border: 1px solid;
+	padding-bottom: 1rem;
 }
+
