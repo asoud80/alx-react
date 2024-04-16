@@ -1,4 +1,3 @@
-
 import propTypes from 'prop-types';
 
 const CourseShape = propTypes.shape({
@@ -9,4 +8,3 @@ const CourseShape = propTypes.shape({
 
 
 export default CourseShape;
-
